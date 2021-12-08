@@ -57,9 +57,12 @@
 .bi-circle-fill{
   color:   #f0bd01;
 }
+.bi-quote {
+  color: #616161;
+  font-size: 2.5rem;
+}
 .section2 > p{
   margin-top: 1.8rem!important;
-
 }
 
 .Body_text {
@@ -68,10 +71,16 @@
   line-height: 1.556;
   text-align: left;
 }
-.section3-btn{
+.section2-btn{
     float: right;
     background-color:   #f0bd01;
+    border: none;
+    width: 5.3rem;
+    height: 1.75rem;
+}
 
+.section3 {
+  background-color: #fafafa ;
 }
 footer {
   background-color: #e4bc01;
