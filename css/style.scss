@@ -1,0 +1,19 @@
+@import "mixins.scss";
+
+$nav-background-color: #2d2b2b;
+$quotes-background-color: #3a0a1d;
+$footer-background-color: #e4bc01;
+
+.navbar {
+    background-color: $nav-background-color;
+}
+
+.nav-item .nav-link {
+    color: white;
+    @include navbar-text;
+}
+
+.collapse {
+    justify-content: center;
+    align-items: flex-end;
+}
